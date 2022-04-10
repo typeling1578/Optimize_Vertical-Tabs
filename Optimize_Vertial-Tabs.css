@@ -59,7 +59,7 @@ vbox#sidebar-box[sidebarcommand="vertical-tabs_typeling1578-sidebar-action"][pos
     display: none !important;
   }
   
-  .titlebar-button {
+  :root[tabsintitlebar] #TabsToolbar .titlebar-button:-moz-any(.titlebar-min, .titlebar-max, .titlebar-restore, .titlebar-close) {
     transform: translateY(0px) !important;
     margin: 0 !important;
   }
