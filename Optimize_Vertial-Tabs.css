@@ -11,6 +11,7 @@
 vbox#sidebar-box[sidebarcommand="vertical-tabs_typeling1578-sidebar-action"] {
   position: relative !important;
   clip-path: inset(0) !important;
+  z-index: 1 !important;
 }
 
 
@@ -18,7 +19,6 @@ vbox#sidebar-box[sidebarcommand="vertical-tabs_typeling1578-sidebar-action"] {
 vbox#sidebar-box[sidebarcommand="vertical-tabs_typeling1578-sidebar-action"] {
   min-width: var(--min-vertical-tabs-size) !important;
   max-width: var(--min-vertical-tabs-size) !important;
-  z-index: 0 !important;
   transition: all var(--vertical-tabs-close-animation) !important;
 }
 
@@ -26,7 +26,6 @@ vbox#sidebar-box[sidebarcommand="vertical-tabs_typeling1578-sidebar-action"] {
 vbox#sidebar-box[sidebarcommand="vertical-tabs_typeling1578-sidebar-action"]:hover {
   min-width: var(--max-vertical-tabs-size) !important;
   max-width: var(--max-vertical-tabs-size) !important;
-  z-index: 1 !important;
   transition: all var(--vertical-tabs-open-animation) !important;
 }
 
