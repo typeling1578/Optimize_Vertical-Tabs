@@ -67,6 +67,6 @@ vbox#sidebar-box[sidebarcommand="vertical-tabs_typeling1578-sidebar-action"][pos
 
 /*バグの修正*/
 /*MaterialFox-Plus*/
-#titlebar {
+#TabsToolbar {
   margin-top: 0 !important;
 }
