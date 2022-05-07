@@ -63,3 +63,10 @@ vbox#sidebar-box[sidebarcommand="vertical-tabs_typeling1578-sidebar-action"][pos
     margin: 0 !important;
   }
 }
+
+
+/*バグの修正*/
+/*MaterialFox-Plus*/
+#titlebar {
+  margin-top: 0 !important;
+}
